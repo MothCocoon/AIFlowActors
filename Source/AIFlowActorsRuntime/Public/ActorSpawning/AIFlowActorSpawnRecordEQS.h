@@ -50,6 +50,7 @@ protected:
 	void CancelActiveQuery();
 #endif
 
+public:
 #if WITH_EDITOR
 	virtual EDataValidationResult IsDataValid(class FDataValidationContext& Context) const override;
 #endif
