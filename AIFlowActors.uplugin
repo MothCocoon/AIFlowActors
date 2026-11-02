@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AI Flow Actors",
+	"Description": "AI-specific extensions for the Flow Actors plugin.",
+	"Category": "Gameplay",
+	"CreatedByURL": "https://github.com/MothCocoon/FlowGraph/graphs/contributors",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules":
+	[
+		{
+			"Name": "AIFlowActorsRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins":
+	[
+		{
+			"Name": "FlowActors",
+			"Enabled": true
+		}
+	]
+}
